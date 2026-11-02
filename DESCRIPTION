@@ -1,0 +1,17 @@
+Package: Friedman
+Title: Basic Data Analysis Tools
+Version: 0.0.0.9000
+Authors@R:
+    person("Erik", "Pihl", email = "epihl@usf.edu", role = c("aut", "cre"))
+Description: This package provides basic tools that can be used for data analysis.
+    The functions allow users to calculate averages, find minimum and maximum
+    values, and summarize data. This helps users better understand their data.
+Depends: R (>= 3.1.2)
+Imports:
+    ggplot2,
+    dplyr
+License: CC0
+LazyData: true
+Config/roxygen2/version: 8.1.1
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
